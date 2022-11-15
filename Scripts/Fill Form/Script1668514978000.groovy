@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://docs.google.com/forms/d/e/1FAIpQLSeq8naEPofrOrOA0nx
 
 WebUI.waitForElementClickable(findTestObject('Form_Fields/NameField'), 5)
 
-WebUI.setText(findTestObject('Form_Fields/NameField'), findTestData('FIO').getValue(1, 1))
+WebUI.setText(findTestObject('Form_Fields/NameField'), findTestData('FIO-Form').getValue(1, 1))
 
-WebUI.setText(findTestObject('Form_Fields/emailField'), findTestData('FIO').getValue(2, 1))
+WebUI.setText(findTestObject('Form_Fields/emailField'), findTestData('FIO-Form').getValue(2, 1))
 
 WebUI.click(findTestObject('Form_Fields/learnRadio'))
 
